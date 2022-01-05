@@ -175,14 +175,14 @@ body {
     margin-top: 30px;
     padding: 15px 20px;
     color: var(--color-background);
-    background-color: var(--color-secondary);
+    background-color: var(--color-cream);
     border: none;
-
+    cursor: pointer;
 }
 
 .orange {
     position: relative;
-    top: -50vh;
+    top: -28vh;
     left: 38vw;
     height: 85vh;
     width: 150px;
@@ -197,6 +197,14 @@ body {
     padding-left: 15px;
     font-weight: light;
     text-align: center;
+}
+
+img.banana{
+    position: relative;
+    top: -80vh;
+    left: -4vw;
+    height: 350px;
+    width: 800px;
 }
 
 /* .lemon{
