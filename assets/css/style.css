@@ -56,6 +56,15 @@ body {
     color: var(--color-secondary);
 }
 
+.navLinks a:hover{
+    color: var(--color-primary);
+    transition: .3s;
+}
+
+.navLinks a:active{
+    color: var(--color-green);
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -178,6 +187,11 @@ body {
     background-color: var(--color-cream);
     border: none;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--color-secondary);
+    transition: .3s;
 }
 
 .orange {
@@ -492,7 +506,10 @@ input[type="submit"]{
     resize: vertical
 }
 
-
+.footer{
+    background-color: var(--color-cream);
+    color: var(--color-background);
+}
 
 .footer h1{
     text-align: center;
@@ -531,6 +548,7 @@ input[type="submit"]{
 }
 
 .site h1{
-    padding: 20px;
-    font-family: var(--font-marker);
+    padding: 15px;
+    font-size: 10px;
+    font-family: var(--font-poppins);
 }
